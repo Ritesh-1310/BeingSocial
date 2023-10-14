@@ -1,6 +1,6 @@
-# instagram_clone_app
+# BeingSocial
 
-A new Flutter project.
+BeingSocial is a dynamic and feature-rich social media app built with Flutter. It offers a seamless and modern platform for users to connect, share, and engage with their friends and the world.
 
 ## Getting Started
 
