@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:instagram_clone_app/screens/profile_screen.dart';
-import 'package:instagram_clone_app/utils/colors.dart';
+import 'package:being_social_app/screens/profile_screen.dart';
+import 'package:being_social_app/utils/colors.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({Key? key}) : super(key: key);

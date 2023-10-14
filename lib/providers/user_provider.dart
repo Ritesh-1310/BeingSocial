@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:instagram_clone_app/models/user.dart';
-import 'package:instagram_clone_app/resources/auth_methods.dart';
+import 'package:being_social_app/models/user.dart';
+import 'package:being_social_app/resources/auth_methods.dart';
 
 class UserProvider with ChangeNotifier {
   User? _user;

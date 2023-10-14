@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:instagram_clone_app/providers/user_provider.dart';
-import 'package:instagram_clone_app/resources/firestore_methods.dart';
-import 'package:instagram_clone_app/utils/colors.dart';
-import 'package:instagram_clone_app/utils/utils.dart';
+import 'package:being_social_app/providers/user_provider.dart';
+import 'package:being_social_app/resources/firestore_methods.dart';
+import 'package:being_social_app/utils/colors.dart';
+import 'package:being_social_app/utils/utils.dart';
 import 'package:provider/provider.dart';
 
 class AddPostScreen extends StatefulWidget {

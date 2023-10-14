@@ -1,16 +1,16 @@
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+// import 'package:flutter_svg/flutter_svg.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:instagram_clone_app/resources/auth_methods.dart';
-import 'package:instagram_clone_app/responsive/mobile_screen_layout.dart';
-import 'package:instagram_clone_app/responsive/responsive_layout_screen.dart';
-import 'package:instagram_clone_app/responsive/web_screen_layout.dart';
-import 'package:instagram_clone_app/screens/login_screen.dart';
-import 'package:instagram_clone_app/utils/colors.dart';
-import 'package:instagram_clone_app/utils/utils.dart';
-import 'package:instagram_clone_app/widgets/text_field_input.dart';
+import 'package:being_social_app/resources/auth_methods.dart';
+import 'package:being_social_app/responsive/mobile_screen_layout.dart';
+import 'package:being_social_app/responsive/responsive_layout_screen.dart';
+import 'package:being_social_app/responsive/web_screen_layout.dart';
+import 'package:being_social_app/screens/login_screen.dart';
+import 'package:being_social_app/utils/colors.dart';
+import 'package:being_social_app/utils/utils.dart';
+import 'package:being_social_app/widgets/text_field_input.dart';
 
 class SignupScreen extends StatefulWidget {
   const SignupScreen({Key? key}) : super(key: key);
@@ -98,11 +98,11 @@ class _SignupScreenState extends State<SignupScreen> {
                 flex: 2,
                 child: Container(),
               ),
-              SvgPicture.asset(
-                'assets/ic_instagram.svg',
-                color: primaryColor,
-                height: 64,
-              ),
+              // SvgPicture.asset(
+              //   'assets/ic_instagram.svg',
+              //   color: primaryColor,
+              //   height: 64,
+              // ),
               const SizedBox(
                 height: 64,
               ),

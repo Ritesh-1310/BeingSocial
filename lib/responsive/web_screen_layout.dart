@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:instagram_clone_app/utils/colors.dart';
-import 'package:instagram_clone_app/utils/global_variables.dart';
+import 'package:being_social_app/utils/colors.dart';
+import 'package:being_social_app/utils/global_variables.dart';
 
 class WebScreenLayout extends StatefulWidget {
   const WebScreenLayout({Key? key}) : super(key: key);

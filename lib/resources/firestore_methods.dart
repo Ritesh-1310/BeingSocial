@@ -2,8 +2,8 @@ import 'dart:typed_data';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
-import 'package:instagram_clone_app/models/post.dart';
-import 'package:instagram_clone_app/resources/storage_methods.dart';
+import 'package:being_social_app/models/post.dart';
+import 'package:being_social_app/resources/storage_methods.dart';
 import 'package:uuid/uuid.dart';
 
 class FireStoreMethods {

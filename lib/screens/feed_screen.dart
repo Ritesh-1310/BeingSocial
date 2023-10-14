@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:instagram_clone_app/utils/colors.dart';
-import 'package:instagram_clone_app/utils/global_variables.dart';
-import 'package:instagram_clone_app/widgets/post_card.dart';
+// import 'package:flutter_svg/flutter_svg.dart';
+import 'package:being_social_app/utils/colors.dart';
+import 'package:being_social_app/utils/global_variables.dart';
+import 'package:being_social_app/widgets/post_card.dart';
 
 class FeedScreen extends StatefulWidget {
   const FeedScreen({Key? key}) : super(key: key);
@@ -25,11 +25,11 @@ class _FeedScreenState extends State<FeedScreen> {
           : AppBar(
               backgroundColor: mobileBackgroundColor,
               centerTitle: false,
-              title: SvgPicture.asset(
-                'assets/ic_instagram.svg',
-                color: primaryColor,
-                height: 32,
-              ),
+              // title: SvgPicture.asset(
+              //   'assets/ic_instagram.svg',
+              //   color: primaryColor,
+              //   height: 32,
+              // ),
               actions: [
                 IconButton(
                   icon: const Icon(
